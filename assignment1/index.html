@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="maindiv">
+        <img class="logo" src="./loxy.jpg" alt="" />
+        <div class="items">
+            <p class="home">Home</p>
+            <p>About</p>
+            <p>Service</p>
+            <p>Contact</p>
+        </div>
+
+        <button class="login">Login</button>
+    </div>
+
+    <div class="hero">
+        <h1 class="headingtext">
+            Make Your Business Flourish <br />with
+            <span class="home">Digital Marketing</span>
+        </h1>
+        <p class="hero-para">
+            Save time on creating a website from scratch. Use a rich collection of
+            ready-made websites to get your project off to a <br />
+            fast start opposed to using 'Content here, content here', making it look
+            like readable English.
+        </p>
+
+        <div class="button">
+            <button class="button1">Try Trail 30-Days</button>
+            <button class="button2">Schedule a call</button>
+        </div>
+
+        <img class="dashboard" src="./Dashboard.png" alt="dashboard-image" />
+        <svg class="custom_wave" id="wave" style="transform: rotate(0deg); transition: 0.3s" viewBox="0 0 1440 370"
+            version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(245.49, 245.49, 245.49, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(231.829, 223.382, 204.708, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform: translate(0, 0px); opacity: 1" fill="url(#sw-gradient-0)"
+                d="M0,74L120,104.8C240,136,480,197,720,222C960,247,1200,234,1440,203.5C1680,173,1920,123,2160,92.5C2400,62,2640,49,2880,37C3120,25,3360,12,3600,6.2C3840,0,4080,0,4320,18.5C4560,37,4800,74,5040,104.8C5280,136,5520,160,5760,178.8C6000,197,6240,210,6480,228.2C6720,247,6960,271,7200,265.2C7440,259,7680,222,7920,178.8C8160,136,8400,86,8640,67.8C8880,49,9120,62,9360,92.5C9600,123,9840,173,10080,160.3C10320,148,10560,74,10800,49.3C11040,25,11280,49,11520,98.7C11760,148,12000,222,12240,265.2C12480,308,12720,321,12960,283.7C13200,247,13440,160,13680,129.5C13920,99,14160,123,14400,123.3C14640,123,14880,99,15120,117.2C15360,136,15600,197,15840,197.3C16080,197,16320,136,16560,129.5C16800,123,17040,173,17160,197.3L17280,222L17280,370L17160,370C17040,370,16800,370,16560,370C16320,370,16080,370,15840,370C15600,370,15360,370,15120,370C14880,370,14640,370,14400,370C14160,370,13920,370,13680,370C13440,370,13200,370,12960,370C12720,370,12480,370,12240,370C12000,370,11760,370,11520,370C11280,370,11040,370,10800,370C10560,370,10320,370,10080,370C9840,370,9600,370,9360,370C9120,370,8880,370,8640,370C8400,370,8160,370,7920,370C7680,370,7440,370,7200,370C6960,370,6720,370,6480,370C6240,370,6000,370,5760,370C5520,370,5280,370,5040,370C4800,370,4560,370,4320,370C4080,370,3840,370,3600,370C3360,370,3120,370,2880,370C2640,370,2400,370,2160,370C1920,370,1680,370,1440,370C1200,370,960,370,720,370C480,370,240,370,120,370L0,370Z">
+            </path>
+        </svg>
+    </div>
+
+    <!-- <div class="all_image">
+      <img class="global_img" src="./amazon.svg" alt="amazon">
+      <img class="global_img" src="./google.svg" alt="google">
+      <img class="global_img" src="./lenovo.svg" alt="lenovo">
+      <img class="global_img" src="./paypal.svg" alt="paypal">
+      <img class="global_img" src="./shopify.svg" alt=" shopify">
+      <img class="global_img" src="./spotify.svg" alt="spotify">
+    </div> -->
+
+    <div class="all_img">
+        <img class="each_img" src="./amazon.svg" alt="amazon" />
+        <img class="each_img" src="./google.svg" alt=" google" />
+        <img class="each_img" src="./lenovo.svg" alt="lenovo" />
+        <img class="each_img" src="./paypal.svg" alt="paypal" />
+        <img class="each_img" src="./shopify.svg" alt="shopify" />
+        <img class="each_img" src="./spotify.svg" alt="spotify" />
+    </div>
+
+    <div class="main_section">
+        <div class="left_section">
+            <!-- left -->
+            <p class="productivity">EASY HANDLING</p>
+            <h1>Discover Powerful <br />Features To Boost <br />
+                <span class="productivity">Productivity</span>
+            </h1>
+
+            <div class="card_section">
+                <div class="cards">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 14 14">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M5 6.5a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5m-4.5 7h9v-.542A4.51 4.51 0 0 0 4.796 8.5A4.51 4.51 0 0 0 .5 12.958zm8.5-7a2.5 2.5 0 0 0 0-5m2.5 12h2v-.542A4.51 4.51 0 0 0 10 8.61" />
+                    </svg>
+                    Multiple user & <br>management
+                    <div class="appoitment">
+                        <p>Multi User</p>
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                            viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z" />
+                        </svg>
+                    </div>
+
+
+                </div>
+
+                <div class="cards">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 2048 2048">
+                        <path fill="currentColor"
+                            d="m1908 562l-424-423q31-31 59-57t60-44t67-28t84-10q61 0 114 21t94 60t63 91t23 114q0 47-10 84t-28 70t-44 61t-58 61m-152 150l-282 282l-420-420l280-284zM25 146L146 25l1877 1877l-121 121l-729-729l-420 419L0 2046l348-759l407-411z" />
+                    </svg>
+                    <p>Editable & highly customizable
+                    </p>
+                    <div class="appoitment">
+                        <p>Customization</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right_section">
+            <div class="leftdiv">
+                <div class="cards">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 15 15">
+                        <path fill="none" stroke="currentColor"
+                            d="M3.5 0v5m8-5v5M3 7.5h3m6 0H9m-6 3h3m3 0h3m-10.5-8h12a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-10a1 1 0 0 1 1-1Z" />
+                    </svg>
+                    <p>Advanced online <br>appointment</p>
+                    <div class="appoitment">
+                        <p>appoitment</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="cards">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path
+                                d="M19 18a3.5 3.5 0 0 0 0-7h-1c.397-1.768-.285-3.593-1.788-4.787s-3.6-1.575-5.5-1S7.397 7.232 7 9c-2.199-.088-4.155 1.326-4.666 3.373S2.898 16.527 4.9 17.4" />
+                            <path
+                                d="M8 16a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm2-1v-2a2 2 0 1 1 4 0v2" />
+                        </g>
+                    </svg>
+
+                    <p>Superfast cloud data saved</p>
+                    <div class="appoitment">
+                        <p>Cloud Server</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="rightdiv">
+                <div class="cards">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9A3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42c-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3a3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3a3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9c-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65c2.56.34 4.45 1.51 4.45 2.9z" />
+                    </svg>
+                    <p>Advanced online <br>appointment</p>
+                    <div class="appoitment">
+                        <p>Management</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z" />
+                        </svg></p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 15 15">
+                        <path fill="none" stroke="currentColor"
+                            d="M3.5 0v5m8-5v5M3 7.5h3m6 0H9m-6 3h3m3 0h3m-10.5-8h12a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-12a1 1 0 0 1-1-1v-10a1 1 0 0 1 1-1Z" />
+                    </svg>
+
+                    <p>User Next Level <br>Interface Site</p>
+                    <div class="appoitment">
+                        <p>Website</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                            <path fill="currentColor"
+                                d="m359.873 121.377l-22.627 22.627l95.997 95.997H16v32.001h417.24l-95.994 95.994l22.627 22.627L494.498 256z" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+
+    <div class="container">
+        <div class=" global left_side">
+            <p class="yellow"> STRUCTURE</p>
+            <p class="big_size">Discover All <span class="yellow">Our Features</span></p>
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+                placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus temporibus autem.
+            </p>
+            <div class="holder">
+                <div class="akcj">
+                    <div class="lkjhg">
+                        <svg class="svgcolor" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 15 15">
+                            <path fill="currentColor"
+                                d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                        </svg>
+                        <p>Trends Tracking</p>
+                    </div>
+                    <div class="lkjhg">
+                        <svg class="svgcolor" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 15 15">
+                            <path fill="currentColor"
+                                d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                        </svg>
+                        <p>Loyalty Programs</p>
+                    </div>
+                </div>
+
+
+                <div class="akcj">
+                    <div class="lkjhg">
+                        <svg class="svgcolor" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 15 15">
+                            <path fill="currentColor"
+                                d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                        </svg>
+                        <p>Vendor Management</p>
+                    </div>
+                    <div class="lkjhg">
+                        <svg class="svgcolor" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 15 15">
+                            <path fill="currentColor"
+                                d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                            <p>
+                        </svg>Billing</p>
+                    </div>
+                </div>
+            </div>
+            <button class="category">All categories</button>
+        </div>
+
+        <div class=" global right_side">
+            <img src="./dashbord-3 (1).png" alt="dashboard3">
+        </div>
+    </div>
+
+
+    <!-- PERFORMANCE METRICS -->
+    <div class="performance_metrics">
+
+        <div class="dashboard_image">
+            <img class="imageme" src="./dashbord-4.png" alt="dashboard4">
+        </div>
+
+
+        <div class="rightside_content">
+            <p class="yellow">PERFORMANCE METRICS</p>
+            <h3>Grow Up Your Business <br> With In <span class="yellow">5 Minutes</span></h3>
+            The passage experienced a surge in popularity during the <br> 1960s when Letraset used it on their
+            dry-transfer sheets,<br> and again during the 90s as desktop publishers bundled the <br> text with their
+            software.
+
+            <div class="active_user">
+                <p><strong>200K</strong> <br>Active user from the <br> community</p>
+                <p><strong>90% </strong>(Positive Reating) <br>
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="m7.69 18.346l1.614-5.33L5.115 10h5.216L12 4.462L13.67 10h5.215l-4.189 3.016l1.614 5.33L12 15.07z" />
+                    </svg>
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="m7.69 18.346l1.614-5.33L5.115 10h5.216L12 4.462L13.67 10h5.215l-4.189 3.016l1.614 5.33L12 15.07z" />
+                    </svg>
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="m7.69 18.346l1.614-5.33L5.115 10h5.216L12 4.462L13.67 10h5.215l-4.189 3.016l1.614 5.33L12 15.07z" />
+                    </svg>
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="m7.69 18.346l1.614-5.33L5.115 10h5.216L12 4.462L13.67 10h5.215l-4.189 3.016l1.614 5.33L12 15.07z" />
+                    </svg>
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 7.9v5.9l2.4 1.85l-.9-3.05l2.25-1.6h-2.8zm0 7.17l-3.027 2.305q-.16.11-.321.097t-.296-.091t-.205-.235t-.003-.333l1.156-3.798l-2.875-2.075q-.172-.1-.215-.263q-.043-.164.019-.323q.061-.16.187-.257q.125-.097.3-.097h3.618l1.172-3.877q.063-.183.193-.28q.13-.099.296-.099t.296.098t.193.281L13.66 10h3.618q.176 0 .301.097q.126.097.187.257q.062.16.019.323t-.215.264l-2.875 2.074l1.156 3.798q.067.177-.003.333t-.205.235t-.296.091t-.321-.097z" />
+                    </svg>
+                </p>
+            </div>
+            <div class="list_se">
+                <div class="sab">
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15">
+                        <path fill="currentColor" d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                    </svg>
+                    <p>Get Overview at a glance.</p>
+                </div>
+                <div class="sab">
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15">
+                        <path fill="currentColor" d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                    </svg>
+                    <p>Deposite funds easily, security.</p>
+                </div>
+                <div class="sab">
+                    <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 15 15">
+                        <path fill="currentColor" d="M9.875 7.5a2.375 2.375 0 1 1-4.75 0a2.375 2.375 0 0 1 4.75 0" />
+                    </svg>
+                    <p>First Working Process.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- four element -->
+    <div class="all_four">
+
+        <div class="both">
+            <svg class="icone_me" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                <path fill="currentColor"
+                    d="M21.053 20.8c-1.132-.453-1.584-1.698-1.584-1.698s-.51.282-.51-.51s.51.51 1.02-2.548c0 0 1.413-.397 1.13-3.68h-.34s.85-3.51 0-4.7c-.85-1.188-1.188-1.98-3.057-2.547s-1.188-.454-2.547-.396s-2.492.793-2.492 1.19c0 0-.85.056-1.188.396c-.34.34-.906 1.924-.906 2.32s.283 3.06.566 3.625l-.337.114c-.284 3.283 1.13 3.68 1.13 3.68c.51 3.058 1.02 1.756 1.02 2.548s-.51.51-.51.51s-.452 1.245-1.584 1.698s-7.416 2.886-7.927 3.396c-.512.51-.454 2.888-.454 2.888H29.43s.06-2.377-.452-2.888c-.51-.51-6.795-2.944-7.927-3.396zm-12.47-.172c-.1-.18-.148-.31-.148-.31s-.432.24-.432-.432s.432.432.864-2.16c0 0 1.2-.335.96-3.118h-.29s.144-.59.238-1.334a10 10 0 0 1 .037-.996l.038-.426c-.02-.492-.107-.94-.312-1.226c-.72-1.007-1.008-1.68-2.59-2.16c-1.584-.48-1.01-.384-2.16-.335c-1.152.05-2.112.672-2.112 1.01c0 0-.72.047-1.008.335c-.27.27-.705 1.462-.757 1.885v.28c.048.654.26 2.45.47 2.873l-.286.096c-.24 2.782.96 3.118.96 3.118c.43 2.59.863 1.488.863 2.16s-.432.43-.432.43s-.383 1.058-1.343 1.44l-.232.092v5.234h.575c-.03-1.278.077-2.927.746-3.594c.357-.355 1.524-.94 6.353-2.862zm22.33-9.056c-.04-.378-.127-.715-.292-.946c-.718-1.008-1.007-1.68-2.59-2.16s-1.007-.384-2.16-.335c-1.15.05-2.11.672-2.11 1.01c0 0-.72.047-1.008.335c-.27.272-.71 1.472-.758 1.89h.033l.08.914c.02.23.022.435.027.644c.09.666.21 1.35.33 1.59l-.286.095c-.24 2.782.96 3.118.96 3.118c.432 2.59.863 1.488.863 2.16s-.43.43-.43.43s-.054.143-.164.34c4.77 1.9 5.927 2.48 6.28 2.833c.67.668.774 2.316.745 3.595h.48V21.78l-.05-.022c-.96-.383-1.344-1.44-1.344-1.44s-.433.24-.433-.43s.433.43.864-2.16c0 0 .804-.23.963-1.84V14.66q0-.026-.003-.05h-.29s.216-.89.293-1.862z" />
+            </svg>
+            <p class="white">100,000+</p>
+            <p class="light_white">No. of People Join</p>
+        </div>
+
+        <div class="both">
+            <svg class="icone_me" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <path d="M10.25 2.75h-7.5v10.5h10.5v-3.5" />
+                    <path d="m5.75 7.75l2.5 2.5l6-6.5" />
+                </g>
+            </svg>
+
+            <p class="white">120+ </p>
+            <p class="light_white">Countries Reached</p>
+        </div>
+        <div class="both">
+            <svg class="icone_me" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M15 8v8H5V8zm1-2H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4V7a1 1 0 0 0-1-1" />
+            </svg>
+            <p class="white"> 425,000+ </p>
+            <p class="light_white">No. of Sessions Given</p>
+        </div>
+        <div class="both">
+            <svg class="icone_me" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M255.656 22.75c-131.173 0-237.72 33.326-237.72 74.344c.002 22.39 32.41 42.59 82.564 56.22c-17.407-8.91-27.53-19.216-27.53-30.47c0-32.128 81.75-58.53 182.686-58.53s183.25 26.4 183.25 58.53c0 11.194-10.3 21.59-27.53 30.47c49.843-13.627 81.968-33.91 81.968-56.22c0-41.018-106.514-74.344-237.688-74.344M147.47 103.094v30.094h216.28v-30.094zm4.374 48.78V361.94h18.687V151.875h-18.686zm39.125 0c.698 61.812 25.325 96.435 52.81 103.814c-27.847 7.475-52.776 42.9-52.843 106.25h128.188c-.066-63.353-24.952-98.766-52.78-106.25c27.468-7.386 52.05-41.998 52.75-103.813H190.968zm147.936 0V361.94h18.688V151.875h-18.688zM100.5 360.72c-50.153 13.626-82.563 33.827-82.563 56.217c0 41.018 106.546 74.344 237.72 74.344s237.687-33.325 237.687-74.342c0-22.31-32.125-42.593-81.97-56.22c17.232 8.88 27.532 19.244 27.532 30.438c0 32.13-82.313 58.563-183.25 58.563S72.97 423.283 72.97 391.155c0-11.254 10.123-21.528 27.53-30.437zm46.97 19.905v30.063h216.28v-30.063z" />
+            </svg>
+            <p class="white"> 500K </p>
+            <p class="light_white">Hour of work</p>
+        </div>
+    </div>
+
+
+
+    <!-- pricing -->
+
+    <div class="whole_container">
+        <div class="heading_section">
+            <p class="yellow extra"><strong>OUR PRICING</strong></p>
+            <h2>Choose The Plan That's <br> Right For <span class="yellow">Your Business</span></h2>
+        </div>
+
+
+
+        <div class="card_section">
+
+            <div class="each_card">
+                <div class="top">
+                    <p>Free</p>
+                    <p>Explore the products and power small personal projects.</p>
+                </div>
+
+                <div class="bottom">
+                    <p><span class="size">$ 0 </span>/ Month </p>
+
+                    <p>Includes : </p>
+                </div>
+
+                <div class="items_list">
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>limited Encrypts</p>
+                    </div>
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>250 Decrypts</p>
+                    </div>
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>1,00 Function Runs</p>
+                    </div>
+
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>1 Environment</p>
+                    </div>
+                </div>
+
+                <div class="bttndiv">
+                    <button class="get_started">Get started</button>
+                </div>
+
+            </div>
+
+            <div class="each_card">
+                <div class="secondtop">
+                    <p>Pro
+                    </p>
+                    <p> Run production apps with full functionality in best price.</p>
+                </div>
+
+                <div class="bottom">
+                    <p><span class="size">$ 90 </span>/ Month </p>
+
+                    <p>Includes : </p>
+                </div>
+
+                <div class="items_list">
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>Unlimited Encrypts
+                        </p>
+                    </div>
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>2,500 Decrypts
+                        </p>
+                    </div>
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p> 1,000 Function Runs
+                        </p>
+                    </div>
+
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>1 Environment</p>
+                    </div>
+                </div>
+
+                <div class="bttndiv">
+                    <button class="second_get_started">Get started</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="each_card">
+                <div class="top">
+                    <p>Enterprise
+                    </p>
+                    <p>Run compliant production apps with full functionality onboarding and support.</p>
+                </div>
+
+                <div class="bottom">
+                    <p><span class="size">$ 190 </span>/ Month </p>
+
+                    <p>Includes : </p>
+                </div>
+
+                <div class="items_list">
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>Unlimited Encrypts
+                        </p>
+                    </div>
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>2,500 Decrypts
+                        </p>
+                    </div>
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>1,000 Function Runs
+                        </p>
+                    </div>
+
+                    <div class="inner">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10s10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4l8-8z" />
+                        </svg>
+
+                        <p>1 Environment</p>
+                    </div>
+                </div>
+
+                <div class="bttndiv">
+                    <button class="get_started">Get started</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- need support -->
+    <div class="last_container">
+
+        <div class="need_support">
+            <p class="yellow">NEED SUPPORT</p>
+            <p class="size">Frequently asked <span class="yellow">Questions</span></p>
+        </div>
+
+        <div class="two_holder">
+            <div class="each_section">
+
+                <div>
+                    <div class="milauna">
+                        <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12.778 6.332a.75.75 0 0 1 .41.668v10a.75.75 0 0 1-1.5 0V8.473L9.44 10.107a.75.75 0 0 1-.882-1.214l3.437-2.5a.75.75 0 0 1 .782-.061" />
+                        </svg>
+                        <p>How Benefit That I Got When Choose Basic Plan</p>
+                    </div>
+                    <div class="topaddin">
+                        <p>Contrary to this, individuals above this tax bracket of <br>
+                            30% can benefit from low basic pay. This is because <br>
+                            the or retirement benefits have to be approximately <br>
+                            27% of the basic pay.</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="milauna">
+                        <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M10.153 8.288c-.374.336-.653.86-.653 1.633a.75.75 0 0 1-1.5 0c0-1.174.442-2.111 1.15-2.748c.694-.626 1.601-.923 2.485-.923s1.79.297 2.485.923c.707.637 1.15 1.574 1.15 2.748c0 1.783-1.132 3.338-2.353 4.569a22 22 0 0 1-1.684 1.508c1.215-.059 2.703-.037 3.949.274a.75.75 0 0 1-.364 1.456c-1.134-.284-2.602-.29-3.834-.214a25 25 0 0 0-2.074.22l-.029.004l-.007.002a.75.75 0 0 1-.593-1.325c.25-.201.521-.411.803-.63c.89-.69 1.893-1.47 2.768-2.352c1.164-1.173 1.917-2.356 1.917-3.512c0-.774-.279-1.297-.653-1.633c-.387-.349-.922-.538-1.481-.538c-.56 0-1.095.19-1.482.538" />
+                        </svg>
+                        <p>How Do I Organize My Notes?</p>
+                    </div>
+                    <div class="topaddin">
+                        <p>Try using coloured paper so that all related notes are <br>
+                            made on sheets of the same colour. Some notebooks <br>
+                            have different colours and have the advantage of <br>
+                            keeping all your notes in one place.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="milauna">
+                        <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M14.457 7.011c.761.54 1.293 1.38 1.293 2.482v.022a2 2 0 0 1-.01.152a3.4 3.4 0 0 1-.495 1.476c-.193.31-.45.606-.785.857c.335.25.592.546.786.857a3.4 3.4 0 0 1 .504 1.628v.021c0 1.101-.532 1.943-1.293 2.483c-.739.523-1.68.761-2.582.761s-1.844-.238-2.582-.761C8.532 16.449 8 15.609 8 14.507a.75.75 0 0 1 1.5 0c0 .56.25.967.66 1.258c.434.307 1.054.485 1.715.485s1.281-.178 1.715-.485c.409-.29.658-.694.66-1.252v-.003l-.003-.044a1.9 1.9 0 0 0-.274-.816c-.245-.392-.776-.9-2.098-.9a.75.75 0 0 1 0-1.5c1.322 0 1.854-.508 2.098-.9a1.9 1.9 0 0 0 .277-.86v-.003c-.002-.558-.251-.962-.66-1.252c-.434-.307-1.054-.485-1.715-.485s-1.281.178-1.715.485c-.41.291-.66.697-.66 1.258a.75.75 0 1 1-1.5 0c0-1.101.532-1.942 1.293-2.482c.739-.523 1.68-.761 2.582-.761s1.844.238 2.582.761" />
+                        </svg>
+                        <p>How Long For A Standard Project</p>
+                    </div>
+                    <div class="topaddin">
+                        <p> Typically, an average project will take in the region of <br>
+                            three four months. Some of our projects are small, <br>
+                            fully specified and are completed in four six weeks. <br>
+                            Others can take six months or much longer.t
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <div class="each_section">
+
+                    <div>
+                        <div class="milauna">
+                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M13.117 6.277a.75.75 0 0 1 .522.924c-.555 1.997-1.653 3.8-2.59 5.085c-.225.309-.443.59-.644.839h2.283V12a.75.75 0 0 1 1.5 0v1.125H15a.75.75 0 0 1 0 1.5h-.812V17a.75.75 0 0 1-1.5 0v-2.375H8.75a.75.75 0 0 1-.53-1.28l.005-.006l.023-.023l.093-.097a20 20 0 0 0 1.496-1.817c.886-1.215 1.87-2.85 2.357-4.603a.75.75 0 0 1 .923-.522" />
+                            </svg>
+                            <p>How Benefit That I Got When Choose Basic Plan</p>
+                        </div>
+                        <p class="topaddin">Contrary to this, individuals above this tax bracket of <br>
+                            30% can benefit from low basic pay. This is because <br>
+                            the or retirement benefits have to be approximately <br>
+                            27% of the basic pay.</p>
+                    </div>
+
+
+                    <div>
+                        <div class="milauna">
+                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M8 7a.75.75 0 0 1 .75-.75h5.625a.75.75 0 0 1 0 1.5H9.5v2.066h2.723c1.834 0 3.527 1.295 3.527 3.127v1.399c0 1.132-.514 2.01-1.274 2.585c-.739.56-1.687.82-2.598.823c-.912.003-1.862-.25-2.603-.81C8.512 16.364 8 15.482 8 14.342a.75.75 0 0 1 1.5 0c0 .643.27 1.092.678 1.401c.43.325 1.043.51 1.694.507c.651-.002 1.266-.19 1.699-.518c.412-.313.679-.76.679-1.39v-1.4c0-.793-.794-1.626-2.027-1.626H8.75a.75.75 0 0 1-.75-.75z" />
+                            </svg>
+                            <p>How Do I Organize My Notes?</p>
+                        </div>
+                        <p class="topaddin">Try using coloured paper so that all related notes are <br>
+                            made on sheets of the same colour. Some notebooks <br>
+                            have different colours and have the advantage of <br>
+                            keeping all your notes in one place.
+                        </p>
+                    </div>
+
+
+                    <div>
+                        <div class="milauna">
+                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M8 10.75a4.5 4.5 0 0 1 4.5-4.5h1.25a.75.75 0 0 1 0 1.5H12.5a3 3 0 0 0-3 3v.442c.69-.402 1.53-.567 2.375-.567c.96 0 1.915.213 2.65.745c.766.555 1.225 1.41 1.225 2.505a3.875 3.875 0 0 1-7.75 0zm1.5 3.125a2.375 2.375 0 1 0 4.75 0c0-.63-.24-1.026-.605-1.29c-.396-.286-1.005-.46-1.77-.46s-1.374.174-1.77.46c-.364.264-.605.66-.605 1.29" />
+                            </svg>
+                            <p>How Long For A Standard Project</p>
+                        </div>
+                        <p class="topaddin"> Typically, an average project will take in the region of <br>
+                            three four months. Some of our projects are small, <br>
+                            fully specified and are completed in four six weeks. <br>
+                            Others can take six months or much longer.t
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row_container">
+        <div class="first_div">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0M12 15a4 4 0 1 0 0-8a4 4 0 0 0 0 8m0-2a2 2 0 1 1 0-4a2 2 0 0 1 0 4" />
+            </svg>
+            <div class="flexing">
+                <p class="size1">Office address</p>
+
+                <p>2 Holt Street,Surry Hills, <br> Australia.</p>
+            </div>
+
+        </div>
+        <div class="first_div">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <g fill="none">
+                    <path stroke="currentColor" stroke-width="1.5"
+                        d="M17 12a5 5 0 1 0-4.478-2.774a.82.82 0 0 1 .067.574l-.298 1.113a.65.65 0 0 0 .796.796l1.113-.298a.82.82 0 0 1 .574.067A5 5 0 0 0 17 12Z" />
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M17 9V5m2 2h-4" />
+                    <path fill="currentColor"
+                        d="m14.1 16.027l-.543-.516zm.456-.48l.544.517zm2.417-.335l-.374.65zm1.91 1.1l-.374.65zm.539 3.446l.543.517zm-1.42 1.496l-.545-.517zm-1.326.71l.074.745zm-9.86-4.489l.543-.516zm-4.813-9.51l-.749.041zm6.475 1.538l.543.517zm.156-2.81l.613-.433zM7.374 4.91l-.613.433zM4.26 4.609l.544.516zM2.691 6.26l-.543-.516zm7.372 7.795l.544-.517zm4.582 2.488l.455-.48l-1.088-1.033l-.455.48zm1.954-.682l1.91 1.1l.749-1.3l-1.911-1.1zm2.279 3.38l-1.42 1.495l1.087 1.034l1.42-1.496zm-2.275 1.975c-1.435.141-5.18.02-9.244-4.258l-1.087 1.033c4.429 4.663 8.654 4.898 10.478 4.717zm-9.244-4.258c-3.876-4.081-4.526-7.523-4.607-9.033l-1.498.08c.1 1.85.884 5.634 5.018 9.986zm1.376-6.637l.286-.302l-1.087-1.033l-.287.302zm.512-4.062L7.986 4.477l-1.225.866l1.26 1.783zm-5.53-2.168L2.149 5.745l1.088 1.033l1.57-1.653zm4.474 5.713a38 38 0 0 0-.545-.515l-.002.002l-.003.003l-.05.058a1.6 1.6 0 0 0-.23.427c-.098.275-.15.639-.084 1.093c.13.892.715 2.091 2.242 3.7l1.088-1.034c-1.428-1.503-1.78-2.428-1.846-2.884c-.032-.22 0-.335.013-.372l.008-.019a.3.3 0 0 1-.037.047l-.005.005l-.003.003l-.001.001s-.002.002-.545-.515m1.328 4.767c1.523 1.604 2.673 2.234 3.55 2.377c.451.073.816.014 1.092-.095a1.5 1.5 0 0 0 .421-.25l.036-.034l.014-.014l.01-.01h.001c0-.002.002-.002-.542-.519c-.544-.516-.543-.517-.543-.518l.002-.001l.002-.003l.005-.005l.01-.01l.037-.032q.015-.008-.004.001c-.02.008-.11.04-.3.009c-.402-.066-1.27-.42-2.703-1.929zM7.986 4.477C6.972 3.043 4.944 2.8 3.718 4.092l1.087 1.033c.523-.55 1.444-.507 1.956.218zM2.752 7.926c-.022-.4.152-.8.484-1.148L2.148 5.745c-.536.564-.943 1.347-.894 2.261zm14.705 12.811c-.279.294-.57.452-.854.48l.147 1.492c.747-.073 1.352-.472 1.795-.939zM9.021 10.02c.969-1.02 1.036-2.613.226-3.76l-1.225.866c.422.597.357 1.392-.088 1.86zm9.488 6.942c.821.473.982 1.635.369 2.28l1.087 1.033c1.305-1.374.925-3.673-.707-4.613zm-3.409-.898c.385-.406.986-.497 1.499-.202l.748-1.3c-1.099-.632-2.46-.45-3.335.47z" />
+                </g>
+            </svg>
+            <div class="flexing">
+                <p class="size1">Telephone number
+                </p>
+
+                <p>1-888-452-1505</p>
+            </div>
+        </div>
+        <div class="first_div">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M19 7H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2m-9.684 7.316l1.602 1.4c.305.266.691.398 1.082.398s.777-.133 1.082-.398l1.602-1.4l-.037.037l3.646 3.646H5.707l3.646-3.646zM5 17.293V10.54l3.602 3.151zm10.398-3.602L19 10.54v6.75zM19 9v.21l-6.576 5.754a.68.68 0 0 1-.848 0L5 9.21V9z" />
+            </svg>
+            <div class="flexing">
+                <p class="size1">Mail address
+                </p>
+
+                <p>2 supprot22@gmail.com</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer_section">
+        <div class="try">
+            <img class="image_changes" src="./image.png" alt="logo">
+            <div class="milauna">
+                <svg class="yellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2" />
+                </svg>
+                <p>Greater pleasures el esndures pains avoid <br>welcomed avoided pariatu.</p>
+
+            </div>
+            <p>Subscribe to our Site :</p>
+            <div>
+                <p>email section</p>
+            </div>
+            <p>© 2024 Loxcy - Created By Themesdesign
+            </p>
+        </div>
+
+
+
+        <div class="common">
+            <p>Company :</p>
+            <p>Company Profile</p>
+            <p>Help Center</p>
+            <p>Services</p>
+            <p>Plans & Pricing</p>
+            <p>Team Members</p>
+            <p>Contact</p>
+        </div>
+
+
+        <div class="common">
+            <p>Community :</p>
+            <p>Career</p>
+            <p>Leadership</p>
+            <p>Press & Media</p>
+            <p>Projects</p>
+            <p>Marketing Services</p>
+            <p>Challenge Of Project</p>
+        </div>
+
+
+        <div class="common">
+            <p>Solution :</p>
+            <p>Small Business</p>
+            <p>Ebook Library</p>
+            <p>Free Theme</p>
+            <p>Affiliates</p>
+            <p>Testimonial</p>
+            <p>Themes</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

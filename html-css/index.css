@@ -1,0 +1,17 @@
+.classdiv{
+    background-color: green;
+}
+
+#iddiv{
+    background-color: blue;
+}
+
+.testdiv{
+    display:flex;
+    gap:10px;
+    border: 10px dotted green;
+    padding:10px 20px 30px 50px;
+    /* background-color: blue; */
+    /* marign gives space to outside of the box */
+      margin: 10px 20px 30 40px; 
+}
