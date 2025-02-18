@@ -38,7 +38,7 @@ export default function FeedSection() {
     fetchPosts();
   }, []);
 
-  const handleDeletePost = async (_id:string) => {
+  const handleDeletePost = async (_id: string) => {
     try {
       // run delete function backend ko
       const response = await axios.delete(`http://localhost:4000/Posts/${_id}`);
@@ -56,19 +56,19 @@ export default function FeedSection() {
       })
     }
 
-    
+
   };
 
-  const handleLikePost= async (_id : string)=>{
+  const handleLikePost = async (_id: string) => {
     try {
-      const response = await axios.patch(`http://localhost:4000/Posts/${_id}`,{
-        $inc : {likeCount :1},
+      const response = await axios.patch(`http://localhost:4000/Posts/${_id}`, {
+        $inc: { likeCount: 1 },
       })
       console.log("this is response", response.data)
     } catch (error) {
       console.log("something went wrong", error);
       toast({
-        title : "liked failed"
+        title: "liked failed"
       })
     }
     fetchPosts();
@@ -79,9 +79,9 @@ export default function FeedSection() {
   const [commentText, setCommentText] = useState("");
   console.log(commentText, "this is comment text");
 
-  const handlePostAComment = async (e,_id: string) => {
+  const handlePostAComment = async (e, _id: string) => {
     e.preventDefault()
-  
+
     const respose = await axios.patch(`http://localhost:4000/Posts/${_id}`, {
       $push: { comments: { commentMessage: commentText } },
     });
@@ -98,12 +98,12 @@ export default function FeedSection() {
     }
   };
 
-   // Show comments handler ---------------------------------->
-   const [showComment, setShowComment] = useState(false);
-   const [currentCommentWalaId, setcurrentCommentWalaId] = useState();
-   console.log(showComment, "this is show comment");
-   console.log(currentCommentWalaId, "this is current comment");
- 
+  // Show comments handler ---------------------------------->
+  const [showComment, setShowComment] = useState(false);
+  const [currentCommentWalaId, setcurrentCommentWalaId] = useState();
+  console.log(showComment, "this is show comment");
+  console.log(currentCommentWalaId, "this is current comment");
+
 
   // const posts = [
   //   {
@@ -183,7 +183,7 @@ export default function FeedSection() {
   // ];
   return (
     <div className=" space-y-8">
-      {posts?.map((post :IPost, index :number) => (
+      {posts?.map((post: IPost, index: number) => (
         <div
           key={index}
           className=" space-y-4">
@@ -201,14 +201,14 @@ export default function FeedSection() {
 
 
             <Link href={`/post/view/${post._id}`}>
-            <Eye/>
+              <Eye />
             </Link>
             <Link href={`post/edit/${post._id}`}>
-            <FilePenLine />
+              <FilePenLine />
             </Link>
-            
 
-            <Trash onClick={()=>handleDeletePost(post._id)} />
+
+            <Trash onClick={() => handleDeletePost(post._id)} />
           </div>
 
           <Image
@@ -233,7 +233,7 @@ export default function FeedSection() {
           </div>
           <p>{post.title}</p>
 
-          <form onSubmit={(e)=>handlePostAComment(e,post._id)} className=" flex items-center gap-4">
+          <form onSubmit={(e) => handlePostAComment(e, post._id)} className=" flex items-center gap-4">
             <Input
               value={commentText}
               required={true}
@@ -245,7 +245,7 @@ export default function FeedSection() {
 
           {showComment === true && currentCommentWalaId === post._id && (
             <div className=" bg-gray-200 p-4 rounded-lg border border-sky-200">
-              {post.comments.map((comment, index:number) => (
+              {post.comments.map((comment, index: number) => (
                 <p key={index}>{comment.commentMessage}</p>
               ))}
             </div>
